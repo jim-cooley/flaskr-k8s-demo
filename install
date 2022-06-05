@@ -1,0 +1,12 @@
+if [ ! -e ./.venv ]; then
+  python3 -m venv ./.venv
+fi
+
+. ./.venv/bin/activate
+pip3 install -U pip
+pip install poetry
+poetry init
+poetry config virtualenvs.create true --local
+poetry config virtualenvs.in-project true --local
+poetry add flask
+poetry install

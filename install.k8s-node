@@ -1,0 +1,2 @@
+# must open the port externally
+sudo iptables -A INPUT -p tcp --dport 5000 -j ACCEPT

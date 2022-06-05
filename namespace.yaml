@@ -1,0 +1,8 @@
+---
+apiVersion: v1
+kind: Namespace
+metadata:
+  name: flaskr-k8s
+  labels:
+    app.kubernetes.io/name: flaskr-k8s
+    app.kubernetes.io/instance: flaskr-k8s
