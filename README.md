@@ -1,13 +1,16 @@
-Flaskr
-======
+# Flaskr
 
-The basic blog app built in the Flask `tutorial`_.
+
+The basic blog app built in the Flask `tutorial`_.  Forked from the Flaskr blogging platform, an example written with Flask by Armin Ronacher.
 
 .. _tutorial: https://flask.palletsprojects.com/tutorial/
 
+## New Instructions
+See `make` for details on building, packaging, etc.  This application builds a Docker image (see `Dockerfile`), which can then be deployed to a Kubernetes cluster.  The dpeloyment spec is in `flaskr.yaml`.
 
-Install
--------
+| NOTE: The remainder of the instructions are kept from the original.  
+
+## Install
 
 **Be sure to use the same version of the code as the version of the docs
 you're reading.** You probably want the latest tagged version, but the
